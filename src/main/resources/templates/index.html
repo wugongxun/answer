@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>查询手机号归属地</title>
+</head>
+<body>
+    <form th:action="@{/queryPhoneNumber}">
+        <input type="text" placeholder="请输入手机号" name="tel">
+        <input type="submit" value="查询">
+    </form>
+<!--返回的数据不做处理-->
+</body>
+</html>
